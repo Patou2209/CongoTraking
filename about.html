@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Propos</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" /> 
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style_publication.css">
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <p class="logo">Congo Tracking <i class="fas fa-map-marker-alt"></i></p>
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="index.html" >Acceuil</a></li>
+                <li><a href="about.html" class="active-tab" >A propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="menu.png" alt="">
+        </div>
+    </nav>
+
+    <!-- Home -->
+    <section id="about-home">
+        <h3>A propos de Nous</h3>
+    </section>
+
+    <!-- Container -->
+    <section class="section_page">
+        <h2><i class="fa-solid fa-location-dot"></i> Qui sommes-nous ?</h2>
+        <p>
+            Congo Tracking est une plateforme avancée de géolocalisation spécialisée dans le suivi 
+            en temps réel des véhicules, motos, flottes professionnelles et équipements sensibles. 
+            Basée en République Démocratique du Congo, notre mission est d’offrir aux particuliers, 
+            entreprises et institutions publiques des solutions fiables, sécurisées et précises pour 
+            optimiser la gestion des déplacements et renforcer la sécurité des biens. Grâce à une 
+            technologie moderne, une interface intuitive et des alertes instantanées, Congo Tracking 
+            s’impose comme un acteur majeur dans la transformation digitale de la mobilité et du 
+            transport en RDC.
+        </p>
+    </section>
+
+    <section class="section_page">
+        <h2><i class="fa-solid fa-eye"></i> Notre vision</h2>
+        <p>
+            Notre vision est de devenir la solution de géolocalisation la plus performante et la plus 
+            accessible de toute la sous-région. Congo Tracking aspire à moderniser le secteur du 
+            transport, réduire les risques de vol, améliorer la sécurité routière et offrir une 
+            transparence totale dans la gestion quotidienne des véhicules. Nous croyons en une 
+            technologie simple, fiable et au service de l’efficacité, permettant à chaque utilisateur 
+            d’avoir un contrôle total sur ses déplacements, où qu’il se trouve.
+        </p>
+    </section>
+
+    <section class="section_page">
+        <h2><i class="fa-solid fa-bullseye"></i> Notre mission</h2>
+        <p>
+            La mission de Congo Tracking est de fournir une plateforme de suivi GPS moderne, flexible 
+            et sécurisée, offrant des services tels que le tracking en temps réel, l’analyse de 
+            vitesse, l’historique complet des trajets, les alertes intelligentes et la protection 
+            contre le vol. Nous nous engageons à accompagner nos clients à chaque étape : installation, 
+            paramétrage, support technique et suivi personnalisé. Grâce à une expertise locale et à 
+            des standards internationaux, Congo Tracking garantit une gestion optimale des flottes et 
+            une sécurité renforcée pour tous vos actifs.
+        </p>
+    </section>
+
+    <section class="section_page">
+        <h2><i class="fa-solid fa-handshake-angle"></i> Nos valeurs</h2>
+        <p>
+            Nos valeurs reposent sur la fiabilité, la transparence, l’innovation et l’engagement. 
+            Nous mettons un point d’honneur à offrir un service stable 24/7, des outils simples et 
+            puissants, ainsi qu’un accompagnement humain pour garantir une utilisation optimale. 
+            Congo Tracking place la sécurité et la satisfaction client au centre de toutes ses 
+            actions, afin d’apporter une véritable valeur ajoutée dans la gestion et la protection 
+            des véhicules en RDC.
+        </p>
+    </section>
+       
+    <!-- Footer -->
+    <footer>
+            <section id="footer">
+
+                <div class="footer-col">
+                    <h3>Contact</h3>
+                    <li>congotracking@gmail.com</li>
+                    <li>+243 821908888 , +27 698089022</li>
+                    <li>Ouvert du Lundi au Samedi: 8h 30 à 16h 30</li>
+                </div>
+
+                <div class="footer-col">
+                    <h3>A Propos</h3>
+                    <li>Suivis en temps réel</li>
+                    
+                   
+                </div>
+
+                <div class="footer-col">
+                    <h3>News letter</h3>
+                    <p>Inscrivez-vous à notre newsletter</p>
+                    <div class="subscribe">
+                        <input type="text" placeholder="Entrez votre email">
+                        <a href="#" class="yellow">S'ABONNER</a>
+                    </div>
+                </div>
+
+                <div class="copyright">
+                <p class="technoweb">© 2026 CONGO TRACKING. Tous droits réservés. <br>Développé par <a href="https://wa.me/+27698089022"> Technoweb</a></p>
+
+                <div class="pro-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                     <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                </div>
+            </div>
+            </section>
+
+    </footer>
+   
+    <script>
+        // Navigation Bar
+        let menuBtn = document.getElementById('menu-btn');
+        let menuClose = document.getElementById('menu-close');
+        
+        menuBtn.addEventListener('click', function() {
+            document.querySelector('.navigation').classList.add('active');
+        });
+        menuClose.addEventListener('click', function() {
+            document.querySelector('.navigation').classList.remove('active');
+        });
+    </script>
+</body>
+</html>
