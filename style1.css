@@ -135,12 +135,11 @@ nav .navigation ul li a:hover {
   margin-bottom: 2rem;
   animation: fadeInn 8s ease ;
 }
-#home .slogan{
+.slogan{
   width: 100%;
   color: white;
   font-size: 1.5rem;
   line-height: 1.5rem;
-  font-family: "Reey", sans-serif;
   text-align: center;
   
 }
@@ -534,13 +533,18 @@ footer .subscribe a.yellow:hover{
   letter-spacing: 2px;
   animation: fadeInn 8s ease ;
 }
-#home .slogan{
-  width: 100%;
-  color: white;
-  font-size: 1.2rem;
-  line-height: 1.3rem;
-  font-family: "Reey", sans-serif;
-  
+.slogan{
+  font-size: 16px;
+}
+.logo{
+  font-size: 20px;
+  color: #003580;
+  font-weight: 600;
+}
+.logo i{
+  color: red;
+  font-size: 25px;
+  animation: float 3s ease-in-out infinite;
 }
   h1{
     font-size: 18px;
@@ -629,6 +633,9 @@ footer .subscribe a.yellow:hover{
   font-size: 1.5rem;
   letter-spacing: 1px;
 }
+.service-card h3{
+  text-align: center;
+}
 
    .map iframe,
    .map img {
@@ -680,13 +687,18 @@ footer .subscribe a.yellow:hover{
   letter-spacing: 1px;
   animation: fadeInn 8s ease ;
 }
-#home .slogan{
-  width: 100%;
-  color: white;
-  font-size: 1rem;
-  line-height: 1.2rem;
-  font-family: "Reey", sans-serif;
-  
+.logo{
+  font-size: 18px;
+  color: #003580;
+  font-weight: 600;
+}
+.logo i{
+  color: red;
+  font-size: 23px;
+  animation: float 3s ease-in-out infinite;
+}
+.service-card h3{
+  text-align: center;
 }
   h2{
     font-size: 16px;
@@ -796,12 +808,12 @@ footer .subscribe a.yellow:hover{
   letter-spacing: 1px;
   animation: fadeInn 8s ease ;
   }
-#home .slogan{
+.slogan{
   width: 100%;
   color: white;
-  font-size: 1rem;
-  line-height: 1.2rem;
-  font-family: "Reey", sans-serif;
+  font-size: 16px;
+  line-height: 15px;
+  
 }
   
 
@@ -839,6 +851,9 @@ footer .subscribe a.yellow:hover{
     align-items: center;
     justify-content: center;
   }
+  .service-card h3{
+  text-align: center;
+}
   nav{
     background-color: white;
   }
