@@ -201,6 +201,9 @@ nav .navigation ul li a:hover {
     font-weight: 700;
     color: #003580;
 }
+.service-card h3{
+  text-align: center;
+}
 
 .section-subtitle {
     margin-top: 10px;
