@@ -120,7 +120,7 @@ nav .navigation ul li a:hover {
       rgba(7, 7, 44, 0.5) 50%,
       rgba(215, 215, 226, 0) 100%
     ),
-    url(background.png) no-repeat center top / cover;
+    url(img/background.png) no-repeat center top / cover;
   z-index: -1;
 }
 @keyframes fadeInn {
